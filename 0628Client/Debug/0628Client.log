@@ -1,0 +1,27 @@
+﻿生成启动时间为 2019/7/5 15:20:32。
+     1>项目“D:\Documents\Visual Studio 2012\Projects\0628Client\0628Client\0628Client.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../Kernel /I../Net /I../0628client /I../../0626Server/Packdef /I../MD5 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\0628Client.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Kernel\TCPKernel.cpp ..\Net\TCPNet.cpp 0628Client.cpp 0628ClientDlg.cpp DlgMain.cpp
+         DlgMain.cpp
+     1>d:\documents\visual studio 2012\projects\0628client\kernel\tcpkernel.h(38): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>d:\documents\visual studio 2012\projects\0628client\0628client\dlgmain.cpp(52): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+     1>d:\documents\visual studio 2012\projects\0628client\0628client\dlgmain.cpp(107): warning C4244: “参数”: 从“std::streamsize”转换到“size_t”，可能丢失数据
+     1>d:\documents\visual studio 2012\projects\0628client\0628client\dlgmain.cpp(228): warning C4244: “=”: 从“ULONGLONG”转换到“INT32”，可能丢失数据
+         TCPKernel.cpp
+     1>d:\documents\visual studio 2012\projects\0628client\kernel\tcpkernel.h(38): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>d:\documents\visual studio 2012\projects\0628client\kernel\tcpkernel.cpp(174): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         TCPNet.cpp
+         正在生成代码...
+         正在编译...
+         0628ClientDlg.cpp
+     1>d:\documents\visual studio 2012\projects\0628client\kernel\tcpkernel.h(38): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+         0628Client.cpp
+     1>d:\documents\visual studio 2012\projects\0628client\kernel\tcpkernel.h(38): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+         正在生成代码...
+     1>已完成生成项目“D:\Documents\Visual Studio 2012\Projects\0628Client\0628Client\0628Client.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.01
